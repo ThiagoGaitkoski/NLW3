@@ -7,7 +7,13 @@
         <link href="./public/css/main.css" rel="stylesheet">
         <link href="./public/css/animation.css" rel="stylesheet">
         <link href="./public/css/page-orphanages.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
         <link rel="icon" href="./public/images/logo-icon.png">
         <title>Localize um orfanato | Happy</title>
     </head>
@@ -30,7 +36,7 @@
                 </footer>
             </aside>
 
-            <div id="mapid">
+            <div id="mapid" class="animate-appear">
 
                 <a href="create-orphanage.html" class="create-orphanage" title="Cadastre um orfanato">
                     <img src="./public/images/plus.svg" alt="Criar orfanato">
@@ -39,7 +45,7 @@
         </div><!--page-orphanages-->
 
         <!--==========SCRIPTS==========-->
-
+        <script src="./js/page-orphanages.js"></script>
     </body>
 
 </html>
