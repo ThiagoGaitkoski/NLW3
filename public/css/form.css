@@ -96,3 +96,7 @@ fieldset legend{
     display: flex;
     cursor: pointer;
 }
+
+.new-upload + .new-upload{
+    margin-top: 2.4rem;
+}
